@@ -1,0 +1,89 @@
+body{
+    background-color: lightslategray;
+    font-size: 20px;
+    
+}
+
+#header-nav{
+    background-color:lightsalmon;
+}
+
+.navbar-brand {
+    padding: 25px;
+}
+.navbar-brand h1{
+    font-family: 'Oswald', sans-serif;
+    color: lightslategrey;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 1.5px #222;
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  color: lightsalmon;
+  text-transform: uppercase;
+  text-shadow: 1.5px 1.5px 1.5px #222;
+}
+section{
+  background-color: lightsalmon;
+  margin: 25px 25px;
+  padding: 15px;
+  box-shadow: 1.5px 1.5px 1.5px #222;
+}
+.chicken,.beef,.sushi{
+  text-align: center;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  a.nav-link{
+    display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  a.nav-link{
+    display: none;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  a.nav-link{
+    display: none;
+  }
+}
+@media (min-width:567px ) and (max-width:767px){
+  a.nav-link{
+    display: none;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #navbarSupportedContent{
+    text-align: center;
+
+  }
+  hr.collapse{
+    height: 20px;
+    color: lightslategrey;
+  }
+ 
+}
